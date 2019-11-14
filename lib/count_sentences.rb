@@ -28,5 +28,7 @@ if string_self.end_with?("!")
 
   def count_sentences
      string_self.squeeze('.!?').count('.!?')
+     
+     #string_self.squeeze('.!?') searches ("#{user_input}") for duplicate characters outlined in the argument. It then creates an array with the duplicate characters removed. Since all three arguments are placed together here
   end
 end
