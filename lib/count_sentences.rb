@@ -29,6 +29,7 @@ if string_self.end_with?("!")
   def count_sentences
      string_self.squeeze('.!?').count('.!?')
      
-    # string_self.squeeze('.!?') searches the "string" of .count_sentences for duplicate #characters outlined in the argument and replaces all instances of duplicates with just one #of that character. 
+     #string_self.squeeze('.!?') searches the "string" of .count_sentences for duplicate #characters outlined in the argument and replaces all instances of duplicates with just one #of that character.
+     #.count then counts the punctuation remaining in string. Since 
   end
 end
